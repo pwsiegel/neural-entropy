@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+jupyterlab = "*"
+pandas = "*"
+plotly = "*"
+sklearn = "*"
+
+[dev-packages]
+jupyterlab-vim = "*"
+
+[requires]
+python_version = "3.9"
